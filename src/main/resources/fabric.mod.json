@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "orbit_client",
+  "version": "${version}",
+  "name": "Donutclient",
+  "description": "Donutclient for DonutSMP: a redesigned client control center with configurable aim assist, loaded-storage radar, slower and faster swing animations, auto sprint, hold-to-zoom, player radar, telemetry, and low-health alerts. Right Shift opens settings. Retains the original mod ID for compatibility. Not affiliated with DonutSMP.",
+  "authors": [
+    "ModForge"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modgen.orbit_client.OrbitMod"
+    ],
+    "client": [
+      "com.modgen.orbit_client.OrbitClient"
+    ]
+  },
+  "mixins": [
+    "orbit_client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

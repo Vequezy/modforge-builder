@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.modgen.orbit_client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["LocalSwingMixin"],
+  "injectors": {"defaultRequire": 1}
+}

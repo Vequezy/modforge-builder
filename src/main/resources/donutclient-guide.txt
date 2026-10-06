@@ -1,0 +1,26 @@
+DONUTCLIENT / DonutSMP edition
+
+Right Shift opens the control center. Escape or Done closes it.
+Select Combat, Radar, Movement, Visual, or HUD in the sidebar.
+Use the page arrows to access additional settings. Numeric settings are draggable sliders and support keyboard adjustment when focused. Preferences save automatically. Reset tab restores only that category.
+
+Modules
+- Aim assist: nearest eligible player; configurable range, full targeting cone, turn strength, smoothing, aim height, visibility filter, invisible-player filter, and optional Left Alt activation.
+- Storage radar: loaded storage blocks, including through walls. North-up map, heading marker, nearest-storage list, vertical offsets, container filters, scan frequency, horizontal and vertical range.
+- Swing animation: 0.10x to 4.00x. Below 1.00x slows the animation; above 1.00x speeds it up. Affects only your local hand animation, not attack cooldown or server attack rate. Vanilla duration effects remain part of the calculation.
+- Auto sprint: sprints while forward is held, with a configurable food threshold. Avoids sneaking, using items, and horizontal collisions. Disabling stops requesting sprint; normal vanilla sprint behavior remains.
+- Zoom: hold C with the module enabled. Configurable zoom FOV; previous FOV restores when released, opening a screen, losing focus, disabling the module, or leaving the world.
+- Dashboard: coordinates, smoothed horizontal speed, eight-way compass, module state, and current aim target.
+- Player radar: nearest client-known players with distance and cardinal direction, adjustable radius and row count.
+- Low-health alert: configurable heart threshold.
+- Shared panel opacity and screen margin.
+
+Storage and player information is limited to what the server has sent to the client. Storage radar identifies blocks, not inventory contents. Higher scan ranges cost more client CPU time.
+
+Compatibility
+The orbit_client mod ID and Java package are intentionally retained. Existing orbit-client.properties preferences are imported if donutclient.properties does not exist. Subsequent changes are stored in config/donutclient.properties.
+
+Design notes
+Dark panels, pink accent lines, a category sidebar, compact settings pages, and consistent sliders provide the redesigned interface. No external textures or downloads are required. Live web browsing was not available during this update; no claim of having searched or reviewed current client websites is made.
+
+Donutclient is an independent client utility and is not affiliated with or endorsed by DonutSMP.
