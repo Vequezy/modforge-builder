@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "flowclient",
+  "version": "${version}",
+  "name": "Flow Client",
+  "description": "Client-side dark lavender ClickGUI with searchable module panels, persistent profiles, configurable keybinds, themes and functional client utilities. Unimplemented catalog entries are labeled interface presets.",
+  "authors": [
+    "ModForge"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modgen.flowclient.FlowClient"
+    ],
+    "client": [
+      "com.modgen.flowclient.client.FlowClientClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
