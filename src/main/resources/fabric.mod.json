@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ruby_flame",
+  "version": "${version}",
+  "name": "Ruby Flame",
+  "description": "A crimson ruby sword with 8 attack damage, diamond-tier durability, and a fiery enchantment: fully charged attacks ignite living targets for 6 seconds.",
+  "authors": [
+    "ModForge"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modgen.ruby_flame.RubyFlame"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
